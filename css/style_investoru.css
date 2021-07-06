@@ -69,6 +69,15 @@
 .btn-project {
   margin-top: 127px; }
 
+      .btn_investoru-banner {
+padding: 25px 64px;
+}
+
+.btn_investor-project {
+padding: 25px 50px;
+}
+
+
 .investor-features__left {
   width: calc(50% - 100px); }
 
@@ -424,7 +433,13 @@ align-items: baseline;
 
   .section-lock_lenta-right span {
     left: -26px;
-    top: 30px; } }
+    top: 30px; } 
+    
+    
+.investoru_submenu {
+  margin-bottom:35px;
+}
+}
 @media (max-width: 480px) {
   .container {
     padding: 0 28px; }
@@ -444,11 +459,10 @@ align-items: baseline;
 }
 
 .investoru-banner {
-    margin: 70px 0 100px 0;
+    margin: 50px 0 100px 0;
 }
 
-  .investor-project {
-    padding-bottom: 5px; }
+
     .investor-project img {
       max-width: 300px; }
     .investor-project__img {
@@ -482,13 +496,6 @@ align-items: baseline;
     font-weight: 500;
     border: none; }
 
-    .btn_investoru-banner {
-padding: 25px 64px;
-}
-
-.btn_investor-project {
-padding: 25px 50px;
-}
 
 
   .banner {
