@@ -94,6 +94,7 @@ header {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     background: linear-gradient(101.28deg, #ffdd00 8.72%, #e30613 187.1%);
+    padding: 25px 50px;
   }
 
   .investoru-banner {
@@ -545,7 +546,7 @@ header {
     }
 
     .investor-project {
-      margin-bottom: 50px;
+      margin-bottom: 65px;
     }
 
     .investoru_submenu {
@@ -575,7 +576,7 @@ header {
 
 
     .investoru-banner {
-      margin: 50px 0 100px 0;
+      margin: 100px 0 100px 0;
     }
 
 
