@@ -111,7 +111,7 @@
 .investor-project__img img {
   width: 100%;
   border-radius: 10px;
-  max-width: 500px; }
+  max-width: 462px; }
 
 .how-work .h3 {
   margin-bottom: 0.6em; }
@@ -121,7 +121,9 @@
 
 .how-work__item .icon img {
   max-width: 160px; }
-
+.how-work-items {
+align-items: baseline;
+}
 .how-work__item:first-child .icon::after {
   content: "";
   width: 8.6875em;
@@ -432,8 +434,21 @@
   .mobile-no {
     display: none; }
 
+    
+
+.project-padding {
+    margin-bottom: 0;
+}
+.investor-project {
+    margin-bottom: 0;
+}
+
+.investoru-banner {
+    margin: 70px 0 100px 0;
+}
+
   .investor-project {
-    padding-bottom: 50px; }
+    padding-bottom: 5px; }
     .investor-project img {
       max-width: 300px; }
     .investor-project__img {
@@ -464,7 +479,17 @@
 
   .btn-gradient {
     font-family: Manrope;
-    font-weight: 500; }
+    font-weight: 500;
+    border: none; }
+
+    .btn_investoru-banner {
+padding: 25px 64px;
+}
+
+.btn_investor-project {
+padding: 25px 50px;
+}
+
 
   .banner {
     padding: 116px 0; }
