@@ -1,31 +1,5 @@
-*,
-header {
+* {
   font-family: "Roboto", sans-serif; }
-
-.header__left {
-  margin-right: 23px;
-}
-.menu {
-  margin-right: 2.38em;
-}
-.menu li,
-.header .btn {
-  font-size: 14px;
-}
-.header__center {
-margin-right: 0;
-}
-
-.header__center a.last-link {
-      margin-left: 38px;
-}
-.menu li {
-  padding: 0 1.35em;
-}
-
-.logo img {
-  min-width: 55px;
-}
 
 .investoru_submenu {
   -webkit-box-pack: start;
@@ -452,7 +426,9 @@ margin-right: 0;
 @media (max-width: 480px) {
   .container {
     padding: 0 28px; }
-
+.header {
+  padding: 20px 0 70px 0;
+}
   .mobile-no {
     display: none; }
 
