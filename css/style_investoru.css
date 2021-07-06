@@ -84,6 +84,10 @@ header {
     max-width: 500px;
   }
 
+  .btn_investoru-banner {
+    padding: 25px 64px;
+  }
+
   .banner_text {
     color: #ffffff !important;
     opacity: 0.75;
