@@ -101,6 +101,10 @@ header {
  .btn_investoru-banner {
    padding: 25px 64px;
  }
+
+ .investor-project__descr .btn {
+   margin-top: 0;
+ }
   .investoru-banner {
     margin: 150px 0;
   }
