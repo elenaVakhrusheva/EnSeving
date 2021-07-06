@@ -84,9 +84,7 @@ header {
     max-width: 500px;
   }
 
-  .btn_investoru-banner {
-    padding: 25px 64px;
-  }
+ 
 
   .banner_text {
     color: #ffffff !important;
@@ -100,7 +98,9 @@ header {
     background: linear-gradient(101.28deg, #ffdd00 8.72%, #e30613 187.1%);
     padding: 25px 50px;
   }
-
+ .btn_investoru-banner {
+   padding: 25px 64px;
+ }
   .investoru-banner {
     margin: 150px 0;
   }
