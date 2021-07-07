@@ -251,6 +251,7 @@ header {
     line-height: 1.25;
     max-width: 260px;
     margin: 0 auto;
+    padding: 0px 30px;
   }
 
   .our-projects {
@@ -691,6 +692,12 @@ header {
       max-width: 290px;
       margin: 0 auto;
       padding: 0 40px;
+    }
+    .how-work__item .icon:first-child  {
+        padding-right: 45px;
+    }
+    .how-work__item .h5:last-child {
+    max-width:200px;
     }
 
     .section-lock_lenta {
