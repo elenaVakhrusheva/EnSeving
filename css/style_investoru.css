@@ -693,10 +693,10 @@ header {
       margin: 0 auto;
       padding: 0 40px;
     }
-    .how-work__item .icon:first-child  {
+    .how-work__item:first-child .icon  {
         padding-right: 45px;
     }
-    .how-work__item .h5:last-child {
+    .how-work__item:last-child .h5 {
     max-width:200px;
     }
 
