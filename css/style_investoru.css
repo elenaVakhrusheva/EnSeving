@@ -516,6 +516,26 @@ header {
       -ms-flex-pack: left;
       justify-content: left;
     }
+    .how-work-items--four-col .how-work__item:first-child .icon::before, 
+.how-work__item:first-child .icon::before {
+left: -30px;
+}
+
+.how-work-items--four-col .how-work__item:nth-child(2) .icon::before, 
+.how-work-items--four-col .how-work__item:nth-child(4) .icon::before, 
+.how-work__item:nth-child(2) .icon::before, 
+.how-work__item:nth-child(4) .icon::before {
+right: 0;
+left: 170px;
+bottom: 128%;
+}
+
+
+.how-work-items--four-col .how-work__item:nth-child(3) .icon::before, 
+.how-work__item:nth-child(3) .icon::before
+{
+left: -70px;
+}
   }
 
   @media all and (min-width: 500px) {
@@ -707,6 +727,11 @@ header {
     .how-work__item:last-child .h5 {
     max-width:200px;
     }
+    
+    .how-work__item .icon {
+      height: 10em;
+      margin-bottom: 0;
+      }
 
     .section-lock_lenta {
       width: 195px;
