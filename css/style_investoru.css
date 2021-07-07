@@ -192,7 +192,7 @@ header {
   }
 
   .how-work-items {
-    align-items: flex-start;
+    align-items: baseline;
   }
 
   .how-work__item:first-child .icon::after {
@@ -253,6 +253,14 @@ header {
     margin: 0 auto;
     padding: 0px 30px;
   }
+
+.how-work__item .icon {
+    display: table;
+    margin: 0 auto 1em;
+    height: auto;
+    position: relative;
+    margin-bottom: 50px;
+}
 
   .our-projects {
     padding: 3.125em 0 0;
