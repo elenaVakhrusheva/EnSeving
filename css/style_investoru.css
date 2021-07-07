@@ -249,6 +249,8 @@ header {
 
   .how-work__item .h5 {
     line-height: 1.25;
+    max-width: 260px;
+    margin: 0 auto;
   }
 
   .our-projects {
@@ -686,8 +688,9 @@ header {
     }
 
     .how-work__item .h5 {
-      max-width: 200px;
+      max-width: 290px;
       margin: 0 auto;
+      padding: 0 50px;
     }
 
     .section-lock_lenta {
@@ -716,7 +719,7 @@ header {
     }
 
     .footer__item__title {
-      font-family: Manrope;
+      font-family: 'Manrope';
       font-weight: 600;
       font-size: 12px;
       line-height: 22px;
