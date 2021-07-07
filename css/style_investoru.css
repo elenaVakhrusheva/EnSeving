@@ -192,7 +192,7 @@ header {
   }
 
   .how-work-items {
-    align-items: baseline;
+    align-items: flex-start;
   }
 
   .how-work__item:first-child .icon::after {
@@ -719,7 +719,6 @@ header {
     }
 
     .footer__item__title {
-      font-family: 'Manrope';
       font-weight: 600;
       font-size: 12px;
       line-height: 22px;
