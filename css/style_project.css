@@ -1,0 +1,329 @@
+/* line 1, style_project.scss */
+.project-inner__slider {
+  -webkit-filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.1));
+  width: 500px; }
+
+/* line 6, style_project.scss */
+.project-inner__descr .h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 59px; }
+
+/* line 14, style_project.scss */
+.project-inner__descr__text {
+  font-size: 18px; }
+
+/* line 18, style_project.scss */
+.project-inner__descr-step {
+  font-size: 18px;
+  line-height: 24px;
+  border-bottom: 1px solid yellow;
+  -webkit-box-shadow: 0px 5px 5px -5px rgba(255, 204, 0, 0.3);
+          box-shadow: 0px 5px 5px -5px rgba(255, 204, 0, 0.3);
+  padding-bottom: 15px; }
+
+/* line 26, style_project.scss */
+.project-info__list li .icon {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 25px; }
+
+/* line 33, style_project.scss */
+.icon-gradient {
+  background: linear-gradient(123.97deg, #ffdd00 17.52%, #e30613 147.46%); }
+
+/* line 37, style_project.scss */
+.project-info__list__content {
+  text-align: left; }
+
+/* line 40, style_project.scss */
+.container-reviews {
+  text-align: center; }
+
+/* line 44, style_project.scss */
+.reviews {
+  margin-bottom: 100px;
+  margin-top: 30px; }
+  /* line 48, style_project.scss */
+  .reviews-title {
+    text-align: center;
+    margin-bottom: 82px; }
+  /* line 53, style_project.scss */
+  .reviews-block {
+    background: #f9f9f9;
+    -webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 98px 85px;
+    max-width: 994px;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto; }
+    /* line 65, style_project.scss */
+    .reviews-block:before {
+      content: "";
+      width: 15em;
+      height: 5.6875em;
+      background: url(/img/icons/project/line-reviews_before.svg) 0 0 no-repeat;
+      background-size: contain;
+      position: absolute;
+      right: 100%;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%); }
+    /* line 78, style_project.scss */
+    .reviews-block:after {
+      content: "";
+      width: 20em;
+      height: 5.6875em;
+      background: url(/img/icons/project/line-reviews_after.svg) 0 0 no-repeat;
+      background-size: contain;
+      position: absolute;
+      left: calc(100% - 0.1em);
+      top: 60%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%); }
+    /* line 91, style_project.scss */
+    .reviews-block_icon {
+      position: absolute;
+      display: block;
+      left: -20px;
+      top: 0; }
+    /* line 98, style_project.scss */
+    .reviews-block_text {
+      font-size: 18px;
+      line-height: 150%;
+      margin-bottom: 71px; }
+    /* line 104, style_project.scss */
+    .reviews-block_subscrible {
+      text-align: left;
+      font-size: 16px;
+      line-height: 24px; }
+      /* line 109, style_project.scss */
+      .reviews-block_subscrible-icon {
+        position: absolute;
+        display: block;
+        right: 24px;
+        bottom: -53px; }
+
+/* line 119, style_project.scss */
+.project-info {
+  padding-top: 6.25em; }
+  /* line 122, style_project.scss */
+  .project-info-title {
+    font-size: 3rem;
+    line-height: 1.166;
+    margin-bottom: 65px; }
+  /* line 128, style_project.scss */
+  .project-info__list li .icon {
+    margin-bottom: 0; }
+  /* line 132, style_project.scss */
+  .project-info__list li {
+    padding-bottom: 8em; }
+
+/* line 137, style_project.scss */
+.project-block_with-lenta {
+  position: relative; }
+
+/* line 141, style_project.scss */
+.project-block_with-lenta .slick-list .slick-track .slick-slide {
+  overflow: hidden; }
+
+/* line 145, style_project.scss */
+.lenta-project {
+  position: absolute;
+  z-index: 1;
+  background: linear-gradient(122.7deg, #ffdd00 17.09%, #e30613 183%);
+  color: #060606;
+  text-align: center;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 56px;
+  width: 230px;
+  left: 327px;
+  top: 28px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg); }
+  /* line 160, style_project.scss */
+  .lenta-project_current {
+    left: 200px; }
+
+/* line 165, style_project.scss */
+.current-projects_w-lenta {
+  position: relative; }
+
+/*========= MEDIA =============*/
+@media (max-width: 1024px) {
+  /* line 172, style_project.scss */
+  .lenta-project_current {
+    left: 150px; } }
+@media (max-width: 767px) {
+  /* line 178, style_project.scss */
+  .project-inner__slider {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 30px !important; }
+
+  /* line 183, style_project.scss */
+  .project-data__slide img {
+    border-radius: 20px; }
+
+  /* line 187, style_project.scss */
+  .project-info {
+    padding-top: 100px; }
+
+  /* line 190, style_project.scss */
+  .project-info .h3 {
+    margin-bottom: 50px; }
+
+  /* line 193, style_project.scss */
+  .project-info__list li .project-info__list__content .h5 {
+    line-height: 30px; } }
+@media (max-width: 425px) {
+  /* line 199, style_project.scss */
+  .lenta-project_current {
+    left: 125px; } }
+@media (max-width: 400px) {
+  /* line 205, style_project.scss */
+  .header .logo {
+    display: block;
+    width: 214px;
+    height: 31px;
+    background: url(/img/logo_footer.svg) 0 0 no-repeat;
+    background-size: contain;
+    -webkit-transition: all 0s;
+    transition: all 0s; }
+
+  /* line 214, style_project.scss */
+  .header {
+    padding: 35px 0 45px; }
+
+  /* line 217, style_project.scss */
+  .header__left {
+    margin-right: 0; }
+
+  /* line 221, style_project.scss */
+  .lenta-project {
+    font-size: 16px;
+    line-height: 43px;
+    left: 160px;
+    color: #ffffff; }
+
+  /* line 228, style_project.scss */
+  .project-inner {
+    padding: 0; }
+
+  /* line 232, style_project.scss */
+  .project-inner__slider .slick-arrow {
+    top: 39px; }
+
+  /* line 236, style_project.scss */
+  .project-inner__descr .h4 {
+    font-size: 32px;
+    line-height: 38px; }
+
+  /* line 240, style_project.scss */
+  .project-info .h3 {
+    font-size: 32px;
+    line-height: 48px; }
+
+  /* line 244, style_project.scss */
+  .project-info__list li {
+    padding-bottom: 0;
+    margin-bottom: 28px; }
+
+  /* line 248, style_project.scss */
+  .project-info__list li .icon {
+    margin-right: 5px; }
+
+  /* line 251, style_project.scss */
+  .reviews {
+    margin-top: 100px; }
+
+  /* line 254, style_project.scss */
+  .reviews-title {
+    margin-bottom: 66px; }
+
+  /* line 257, style_project.scss */
+  .reviews-block {
+    padding: 51px 14px; }
+    /* line 259, style_project.scss */
+    .reviews-block_icon svg {
+      width: 66px; }
+    /* line 262, style_project.scss */
+    .reviews-block_icon {
+      left: -10px;
+      top: -20px; }
+    /* line 266, style_project.scss */
+    .reviews-block_text, .reviews-block_subscrible {
+      font-size: 14px;
+      line-height: 24px; }
+    /* line 271, style_project.scss */
+    .reviews-block:before, .reviews-block:after {
+      display: none; }
+
+  /* line 276, style_project.scss */
+  .reviews-block_subscrible-icon {
+    max-width: 93px;
+    right: 10px;
+    bottom: 0; }
+
+  /* line 281, style_project.scss */
+  .reviews-block_text {
+    margin-bottom: 30px; }
+
+  /* line 284, style_project.scss */
+  .current-projects {
+    padding: 0; }
+
+  /* line 287, style_project.scss */
+  .current-projects .h3 {
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    font-family: Manrope; }
+
+  /* line 294, style_project.scss */
+  .project-name {
+    line-height: 28px; }
+
+  /* line 297, style_project.scss */
+  .project-inner__descr-grey {
+    color: #060606;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    opacity: 0.5;
+    padding-right: 15px; }
+
+  /* line 305, style_project.scss */
+  .descr-date {
+    padding: 0 0 0 10px; }
+
+  /* line 308, style_project.scss */
+  .project-inner__descr__notice {
+    margin-bottom: 18px; }
+
+  /* line 311, style_project.scss */
+  .footer {
+    padding: 0 0 30px; }
+
+  /* line 314, style_project.scss */
+  .footer__item:nth-child(2) {
+    margin-bottom: 21px; } }
+@media (max-width: 375px) {
+  /* line 319, style_project.scss */
+  .lenta-project_current {
+    left: 100px; }
+
+  /* line 322, style_project.scss */
+  .lenta-project {
+    left: 110px; } }
+
+/*# sourceMappingURL=style_project.css.map */
