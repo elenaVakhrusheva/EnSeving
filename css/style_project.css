@@ -191,14 +191,8 @@
     left: 125px; } }
 @media (max-width: 400px) {
   /* line 205, style_project.scss */
-  .header .logo {
-    display: block;
-    width: 214px;
-    height: 31px;
-    background: url(/img/logo_footer.svg) 0 0 no-repeat;
-    background-size: contain;
-    -webkit-transition: all 0s;
-    transition: all 0s; }
+ 
+  
 
   /* line 214, style_project.scss */
   .header {
