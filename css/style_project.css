@@ -158,136 +158,332 @@
 .current-projects_w-lenta {
   position: relative; }
 
+/*========= END STYLE PROJECT =============*/
+/*========= START STYLE INDEX-NEW =============*/
+/* line 171, style_project.scss */
+.header-index,
+.index-inner {
+  background: #1f1e1e;
+  color: #fff;
+  -ms-flex-line-pack: center;
+      align-content: center; }
+
+/* line 178, style_project.scss */
+.index_first-screen {
+  padding-bottom: 88px; }
+
+/* line 182, style_project.scss */
+.index-inner__descr {
+  padding-left: 0;
+  padding-bottom: 152px; }
+
+/* line 187, style_project.scss */
+.index-inner__descr__text {
+  font-size: 20px;
+  line-height: 150%;
+  color: #ffffff;
+  opacity: 0.75;
+  padding: 15px 0 90px 0; }
+
+/* line 195, style_project.scss */
+.flex-column {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+/* line 202, style_project.scss */
+.about_icon {
+  width: 20%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 68px; }
+
+/* line 207, style_project.scss */
+.about_text {
+  width: 80%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+/* line 212, style_project.scss */
+.about_text p {
+  font-size: 18px;
+  line-height: 150%; }
+
+/* line 217, style_project.scss */
+.text-gradient {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffdc01), to(#f0670b));
+  background-image: linear-gradient(to right, #ffdc01, #f0670b); }
+
+/* line 223, style_project.scss */
+.our-projects__descr {
+  text-align: left;
+  font-size: 18px;
+  line-height: 150%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+/* line 230, style_project.scss */
+.our-projects__descr-title {
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin-right: 81px; }
+
+/* line 237, style_project.scss */
+.column-2 {
+  width: 50%; }
+  /* line 239, style_project.scss */
+  .column-2:first-child {
+    margin-right: 57px; }
+
+/* line 244, style_project.scss */
+.index_subtext {
+  font-size: 12px;
+  line-height: 150%;
+  color: #767676;
+  padding-top: 15px; }
+
+/* line 251, style_project.scss */
+.icon-number {
+  margin-bottom: 25px; }
+
+/* line 255, style_project.scss */
+.our-projects__h3 {
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #1f1e1e;
+  text-align: left; }
+
+/* line 263, style_project.scss */
+.forma-rascheta {
+  padding: 65px 0 100px 0;
+  margin: 150px 0;
+  text-align: center;
+  color: #fff;
+  background-position: 0 0, 100% 100%;
+  background-color: #000;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-89.2%, rgba(255, 255, 255, 0.35)), to(rgba(255, 255, 255, 0))), #0b0b0b;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.35) -89.2%, rgba(255, 255, 255, 0) 100%), #0b0b0b;
+  background-size: contain, contain, cover; }
+  /* line 273, style_project.scss */
+  .forma-rascheta_title {
+    margin-bottom: 65px;
+    font-size: 50px;
+    line-height: 56px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 4px 41px rgba(255, 255, 255, 0.06); }
+  /* line 283, style_project.scss */
+  .forma-rascheta .calculator {
+    margin-bottom: 100px; }
+
+/* line 288, style_project.scss */
+.agree label {
+  text-align: left; }
+
+/* line 292, style_project.scss */
+.news-title {
+  padding-bottom: 65px; }
+
+/* line 296, style_project.scss */
+.news-item {
+  background: #f9f9f9;
+  -webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 35px 60px 30px; }
+  /* line 301, style_project.scss */
+  .news-item:nth-last-child(n + 2) {
+    margin-bottom: 24px; }
+  /* line 304, style_project.scss */
+  .news-item_data {
+    color: #929090;
+    font-size: 14px;
+    line-height: 150%;
+    padding-bottom: 8px; }
+  /* line 310, style_project.scss */
+  .news-item_text {
+    font-size: 18px;
+    line-height: 150%; }
+
+/* line 316, style_project.scss */
+.banner-calculate-2 {
+  padding: 6.25em 0;
+  margin-top: 150px;
+  text-align: center;
+  color: #fff;
+  background-position: 0 0, 100% 100%;
+  background-color: #fbb705;
+  background-image: url(/img/bg/banner-calculate-1.png), url(/img/bg/banner-calculate-2.png), -webkit-gradient(linear, left top, right top, from(#ffdc01), to(#f0670b));
+  background-image: url(/img/bg/banner-calculate-1.png), url(/img/bg/banner-calculate-2.png), linear-gradient(to right, #ffdc01, #f0670b);
+  background-repeat: no-repeat, no-repeat; }
+
+/* line 328, style_project.scss */
+.banner-calculate_title {
+  margin-bottom: 57px; }
+
+/*========= END STYLE INDEX-NEW =============*/
 /*========= MEDIA =============*/
 @media (max-width: 1024px) {
-  /* line 172, style_project.scss */
+  /* line 337, style_project.scss */
   .lenta-project_current {
     left: 150px; } }
 @media (max-width: 767px) {
-  /* line 178, style_project.scss */
+  /* line 343, style_project.scss */
   .project-inner__slider {
     width: 100%;
     max-width: 400px;
     margin: 0 auto 30px !important; }
 
-  /* line 183, style_project.scss */
+  /* line 348, style_project.scss */
   .project-data__slide img {
     border-radius: 20px; }
 
-  /* line 187, style_project.scss */
+  /* line 352, style_project.scss */
   .project-info {
     padding-top: 100px; }
 
-  /* line 190, style_project.scss */
+  /* line 355, style_project.scss */
   .project-info .h3 {
     margin-bottom: 50px; }
 
-  /* line 193, style_project.scss */
+  /* line 358, style_project.scss */
   .project-info__list li .project-info__list__content .h5 {
     line-height: 30px; } }
 @media (max-width: 425px) {
-  /* line 199, style_project.scss */
+  /* line 364, style_project.scss */
   .lenta-project_current {
     left: 125px; } }
 @media (max-width: 400px) {
-  /* line 205, style_project.scss */
- 
-  
+  /* line 370, style_project.scss */
+  .header .logo {
+    display: block;
+    width: 214px;
+    height: 31px;
+    background: url(/img/logo_footer.svg) 0 0 no-repeat;
+    background-size: contain;
+    -webkit-transition: all 0s;
+    transition: all 0s; }
 
-  /* line 214, style_project.scss */
+  /* line 379, style_project.scss */
   .header {
     padding: 35px 0 45px; }
 
-  /* line 217, style_project.scss */
+  /* line 382, style_project.scss */
   .header__left {
     margin-right: 0; }
 
-  /* line 221, style_project.scss */
+  /* line 386, style_project.scss */
   .lenta-project {
     font-size: 16px;
     line-height: 43px;
     left: 160px;
     color: #ffffff; }
 
-  /* line 228, style_project.scss */
+  /* line 393, style_project.scss */
   .project-inner {
     padding: 0; }
 
-  /* line 232, style_project.scss */
+  /* line 397, style_project.scss */
   .project-inner__slider .slick-arrow {
     top: 39px; }
 
-  /* line 236, style_project.scss */
+  /* line 401, style_project.scss */
   .project-inner__descr .h4 {
     font-size: 32px;
     line-height: 38px; }
 
-  /* line 240, style_project.scss */
+  /* line 405, style_project.scss */
   .project-info .h3 {
     font-size: 32px;
     line-height: 48px; }
 
-  /* line 244, style_project.scss */
+  /* line 409, style_project.scss */
   .project-info__list li {
     padding-bottom: 0;
     margin-bottom: 28px; }
 
-  /* line 248, style_project.scss */
+  /* line 413, style_project.scss */
   .project-info__list li .icon {
     margin-right: 5px; }
 
-  /* line 251, style_project.scss */
+  /* line 416, style_project.scss */
   .reviews {
     margin-top: 100px; }
 
-  /* line 254, style_project.scss */
+  /* line 419, style_project.scss */
   .reviews-title {
     margin-bottom: 66px; }
 
-  /* line 257, style_project.scss */
+  /* line 422, style_project.scss */
   .reviews-block {
     padding: 51px 14px; }
-    /* line 259, style_project.scss */
+    /* line 424, style_project.scss */
     .reviews-block_icon svg {
       width: 66px; }
-    /* line 262, style_project.scss */
+    /* line 427, style_project.scss */
     .reviews-block_icon {
       left: -10px;
       top: -20px; }
-    /* line 266, style_project.scss */
+    /* line 431, style_project.scss */
     .reviews-block_text, .reviews-block_subscrible {
       font-size: 14px;
       line-height: 24px; }
-    /* line 271, style_project.scss */
+    /* line 436, style_project.scss */
     .reviews-block:before, .reviews-block:after {
       display: none; }
 
-  /* line 276, style_project.scss */
+  /* line 441, style_project.scss */
   .reviews-block_subscrible-icon {
     max-width: 93px;
     right: 10px;
     bottom: 0; }
 
-  /* line 281, style_project.scss */
+  /* line 446, style_project.scss */
   .reviews-block_text {
     margin-bottom: 30px; }
 
-  /* line 284, style_project.scss */
+  /* line 449, style_project.scss */
   .current-projects {
     padding: 0; }
 
-  /* line 287, style_project.scss */
+  /* line 452, style_project.scss */
   .current-projects .h3 {
     font-size: 32px;
     line-height: 46px;
     text-align: center;
     font-family: Manrope; }
 
-  /* line 294, style_project.scss */
+  /* line 459, style_project.scss */
   .project-name {
     line-height: 28px; }
 
-  /* line 297, style_project.scss */
+  /* line 462, style_project.scss */
   .project-inner__descr-grey {
     color: #060606;
     font-weight: 500;
@@ -296,27 +492,27 @@
     opacity: 0.5;
     padding-right: 15px; }
 
-  /* line 305, style_project.scss */
+  /* line 470, style_project.scss */
   .descr-date {
     padding: 0 0 0 10px; }
 
-  /* line 308, style_project.scss */
+  /* line 473, style_project.scss */
   .project-inner__descr__notice {
     margin-bottom: 18px; }
 
-  /* line 311, style_project.scss */
+  /* line 476, style_project.scss */
   .footer {
     padding: 0 0 30px; }
 
-  /* line 314, style_project.scss */
+  /* line 479, style_project.scss */
   .footer__item:nth-child(2) {
     margin-bottom: 21px; } }
 @media (max-width: 375px) {
-  /* line 319, style_project.scss */
+  /* line 484, style_project.scss */
   .lenta-project_current {
     left: 100px; }
 
-  /* line 322, style_project.scss */
+  /* line 487, style_project.scss */
   .lenta-project {
     left: 110px; } }
 
